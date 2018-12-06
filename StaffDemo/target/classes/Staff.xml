@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Staff>
+    <Cleaner>
+        <id>1</id>
+        <name>Спиридонова Тамара Сергеевна</name>
+        <position>Уборщица</position>
+        <workTime>180</workTime>
+        <base>70</base>
+    </Cleaner>
+    <Cleaner>
+        <id>2</id>
+        <name>Петрова Наталья Карловна</name>
+        <position>Уборщица</position>
+        <base>70</base>
+        <workTime>175</workTime>
+    </Cleaner>
+    <Cleaner>
+        <id>3</id>
+        <name>Меркулова Анна Альбертовна</name>
+        <position>Уборщица</position>
+        <base>80</base>
+        <workTime>190</workTime>
+    </Cleaner>
+    <Driver>
+        <id>4</id>
+        <name>Наумов Петр Сергеевич</name>
+        <position>Водитель</position>
+        <base>150</base>
+        <workTime>200</workTime>
+    </Driver>
+    <Driver>
+        <id>5</id>
+        <name>Левин Тарас Викторович</name>
+        <position>Водитель</position>
+        <base>150</base>
+        <workTime>210</workTime>
+    </Driver>
+    <Manager>
+        <id>6</id>
+        <name>Абдурахманов Ашот Ашотович</name>
+        <position>Менеджер</position>
+        <base>200</base>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Manager>
+    <Manager>
+        <id>7</id>
+        <name>Рамзанов Рахман Рахманович</name>
+        <position>Менеджер</position>
+        <base>200</base>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Manager>
+    <Tester>
+        <id>8</id>
+        <name>Павлов Виталий Андреевич</name>
+        <position>Инженер по тестированию</position>
+        <base>300</base>
+        <workTime>190</workTime>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Tester>
+    <Tester>
+        <id>9</id>
+        <name>Лукьянов Лука Лукич</name>
+        <position>Инженер по тестированию</position>
+        <base>300</base>
+        <workTime>190</workTime>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.2</personalInput>
+        </project>
+    </Tester>
+    <Tester>
+        <id>10</id>
+        <name>Брежнев Никита Сергеевич</name>
+        <position>Инженер по тестированию</position>
+        <base>300</base>
+        <workTime>190</workTime>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Tester>
+    <Tester>
+        <id>11</id>
+        <name>Васильев Василий Васильевич</name>
+        <position>Инженер по тестированию</position>
+        <base>300</base>
+        <workTime>190</workTime>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Tester>
+    <Programmer>
+        <id>12</id>
+        <name>Лаврентьев Лаврентий Лаврентьевич</name>
+        <position>Инженер-программист</position>
+        <base>400</base>
+        <workTime>190</workTime>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Programmer>
+    <Programmer>
+        <id>13</id>
+        <name>Иванов Иван Иванович</name>
+        <position>Инженер-программист</position>
+        <base>400</base>
+        <workTime>190</workTime>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Programmer>
+    <Programmer>
+        <id>14</id>
+        <name>Силантьев Силантий Силантьевич</name>
+        <position>Инженер-программист</position>
+        <base>400</base>
+        <workTime>190</workTime>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Programmer>
+    <Programmer>
+        <id>15</id>
+        <name>Петров Петр Петрович</name>
+        <position>Инженер-программист</position>
+        <base>400</base>
+        <workTime>190</workTime>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.1</personalInput>
+        </project>
+    </Programmer>
+    <TeamLeader>
+        <id>16</id>
+        <name>Зиновьев Зиновий Зиновьевич</name>
+        <position>Ведущий программист</position>
+        <base>500</base>
+        <workTime>190</workTime>
+        <subordinates>6</subordinates>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.2</personalInput>
+        </project>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.3</personalInput>
+        </project>
+    </TeamLeader>
+    <ProjectManager>
+        <id>17</id>
+        <name>Аристархов Аристарх Аристархович</name>
+        <position>Проектный менеджер</position>
+        <base>500</base>
+        <subordinates>10</subordinates>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.3</personalInput>
+        </project>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.2</personalInput>
+        </project>
+    </ProjectManager>
+    <SeniorManager>
+        <id>18</id>
+        <name>Аполлонов Аполлон Аполлинарьевич</name>
+        <position>Руководитель направления</position>
+        <base>600</base>
+        <subordinates>17</subordinates>
+        <project budget="500000">
+            <title>main.StaffDemo</title>
+            <personalInput>0.3</personalInput>
+        </project>
+        <project budget="700000">
+            <title>DekanatDemo</title>
+            <personalInput>0.2</personalInput>
+        </project>
+    </SeniorManager>
+</Staff>
